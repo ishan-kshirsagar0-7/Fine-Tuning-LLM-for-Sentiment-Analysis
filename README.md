@@ -22,7 +22,7 @@ We employed LoRA, a technique that introduces a low-rank matrix to existing pre-
 **4. Tokenization**: Text data was tokenized using the LLM tokenizer to convert sentences into tokens.\
 **5. LoRA Configuration**: We configured LoRA specific parameters like intrinsic rank & adaptation learning rates for fine-tuning.\
 **6. Training**: The model was fine tuned with the set hyperparameters, using the Trainer module for managing the training loop.\
-**7. Evaluation**: The model's performance was assessed before and after fine-tuning, showing the impact of LoRA and PEFT.\
+**7. Evaluation**: The model's performance was assessed before and after fine-tuning, showing the impact of LoRA and PEFT.
 
 ## Results
 
